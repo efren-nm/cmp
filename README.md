@@ -1,28 +1,38 @@
-# Condensed Matter Physics — native Typst conversion, chapter I opening
+# Condensed Matter Physics — chemistry master edition (Chapter I sample)
 
-**What this delivers:** actual editable Typst text and mathematical equations for source PDF pages 1–20, with progressive stages consolidated, and retained cropped source diagrams. Chapter and section opening page layouts, grayscale colours and serif typography are adapted directly from the Chemistry II project. The ORIGINAL chemistry files are included unchanged in `chemistry_style_original/`.
+This revision **uses the actual original Chemistry II master-page and component
+source** (`masters.typ`, `components.typ`, adapted `design.typ`), rather than
+imitating its style with standalone page definitions.
 
-**What this does not yet deliver:** the remaining source pages 21–422, complete redrawing of diagrams, or a PDF compiled and visually checked. The environment did not have a Typst executable, and installation was blocked; consequently this is an uncompiled source deliverable, not a certified build.
+## Explicit changes
 
-## Build
+- `chapter-cover(ch1)` and `section-cover(ch1, sec1_1/sec1_2)` reproduce the
+  source chemistry chapter/section master layouts.
+- `regular-page(..., chapter: ch1, section: ...)` implements exactly the
+  source running header, footer, margins and page-numbering conventions.
+- `book-figure(..., chapter: ..., section: ...)` uses the original custom
+  **FIGURA I.1.n** caption style and counter logic. Wording in the source
+  figure captions is retained, which sometimes includes pre-existing source
+  figure labels; that editorial duplication requires review.
+- `equation(..., chapter: ..., section: ...)` uses the same warm box,
+  **ECUACIÓN I.1.n** style and automatic numbering as the chemistry notes.
+- Only chemistry-specific formula imports were removed from `design.typ`;
+  the design styling itself is unmodified.
 
-From this folder, with Typst installed:
+## Compile
+
+From the unzipped folder:
 
 ```sh
 typst compile book.typ condensed-matter.pdf
 ```
 
-## Source coverage audit
+**Build validation:** Typst executable unavailable in this environment;
+source syntax and vertical overflow have NOT been compiler-verified. This
+project covers the first 20 PDF source pages only, not all 422.
 
-- Original PDF pp. 1–2: chapter / section openings.
-- pp. 3–6: consolidated discussion of long- and short-range order.
-- pp. 7–8: crystal lattice + motif.
-- pp. 9–10: lattice translations, equations (I.1) and (I.2).
-- p. 11: photographic illustration.
-- pp. 12–13: definitions and equations (I.3)–(I.5).
-- p. 14: section 2 cover.
-- p. 15: primitive vectors and lattice, Figure I.2.
-- pp. 16–18: centered lattice, Figure I.3 final annotated state.
-- pp. 19–20: unit cells, Figure I.4 and its successive state.
+## Important layout detail
 
-This is a substantive **partial conversion**, not the full book. Some source diagrams are crops, not yet vectors. Prior extraction mistakes must be reviewed against the original PDF during the next quality pass; exact 1:1 layout, line breaks, and pagination are deliberately not claimed.
+Keep `book.typ`, `masters.typ`, `components.typ`, `design.typ`, `structure.typ`,
+`chapters/` and `assets/` in the same project. Open/compile `book.typ` as
+entry point. Absolute Typst project paths (`/assets/...`) are intentional.

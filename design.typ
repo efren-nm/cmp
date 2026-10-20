@@ -1,64 +1,251 @@
-// Adapted from the supplied chemistry Typst design: same monochrome visual vocabulary,
-// serif typography, landscape A4, spacious margins, subdued figure captions.
+// General type styles and objects
+
+// Import chemistry package
+// This one changes type slightly
+// Chemistry-only package omitted: unused for condensed matter physics.
+// This one has problems
+// #import "@preview/chem-par:0.0.1": chem-style
+// Chemistry-only formulas omitted.
+
+// Global variables
+#let subject = "Química II"
+
+// #let rohs = image(
+//   "assets/engineering/rohs-logo.png",
+//   height: 2em,
+//   fit: "contain",
+//   )
+#let rohs(size: 2em) = box(
+  baseline: 0.5em,
+  image(
+    "assets/engineering/rohs-logo.png",
+    height: size,
+  ),
+)
+
+// Basic colours in greys
 #let paper = white
 #let ink = rgb("#171717")
 #let muted = rgb("#6F6F6F")
+#let vmuted = rgb("#d6d6d6")
 #let accent = rgb("#555555")
+#let accent-dark = rgb("#2A2A2A")
 #let warm = rgb("#F2F2F2")
 #let cool = rgb("#EAEAEA")
 #let rule = rgb("#BDBDBD")
+
+// Basic types
 #let body-font = ("Libertinus Serif", "New Computer Modern")
 #let display-font = ("Libertinus Serif", "New Computer Modern")
-#let body-size = 13pt
+#let cover-title-font = ("Libertinus Serif", "GFS Didot", "Didot", "Bodoni Moda")
+#let cover-body-font = ("EB Garamond", "Libertinus Serif")
 
-#let setup(body) = {
-  set page(width: 297mm, height: 210mm, margin: (left: 23mm, right: 23mm, top: 21mm, bottom: 20mm), fill: paper)
-  set text(font: body-font, size: body-size, fill: ink, lang: "en")
+// Links
+#show link: it => underline(
+  text(fill: accent)[#it]
+)
+
+// Basic type sizes
+#let body-size = 13pt
+#let source-size = 9.5pt
+#let small-size = 8pt
+#let title-size = 28pt
+#let subtitle-size = title-size * 0.47
+#let display-size = 20pt
+#let section-size = 34pt
+#let chapter-size = 130pt
+#let headfoot-size = 13pt
+#let reference-size = small-size
+#let footnote-size = 6pt
+
+#let muted-text(size:body-size, body) = text(size:size, fill: muted, body)
+#let muted-colour(body) = text(fill: muted, body)
+#let vmuted-colour(body) = text(fill: vmuted, body)
+#let shrink-text(factor:0.5, body) = text(size:body-size * factor, body)
+
+// Global book design
+#let book-design(body) = {
+  set footnote.entry(
+    gap: 0.6em,
+    clearance: 0em,
+    separator: [
+     #line(length: 15%, stroke: 0.05em)
+     #v(0.5em)
+    ],
+  )
+
+  show footnote.entry: set text(
+    size: footnote-size,
+  )
+
+  set text(lang: "es")
+
+  body
+
+}
+
+// Link styles
+#let source-link-style(body) = underline(
+  text(
+    fill: blue,
+  )[
+    #body
+  ]
+)
+
+// Paragraph styles
+#let chapter-style(body) = {
+  set text(
+      font: body-font,
+      size: chapter-size * 0.4,
+      fill: accent-dark,
+      weight: 400,
+      hyphenate: false,
+    )
+  set par(leading: 0.5em, justify: false)
+  body
+}
+
+#let subtitle-style(body) = {
+  set text(
+      font: body-font,
+      size: subtitle-size,
+      fill: muted,
+      weight: 700,
+      hyphenate: false,
+    )
+
+  set par(leading: 0.72em, justify: false)
+  body
+}
+
+#let body-style(body) = {
+  set text(
+    font: body-font,
+    size: body-size,
+    fill: ink,
+  )
+
+  set par(
+    leading: 0.72em,
+    justify: true,
+    first-line-indent: 1.2em,
+  )
+
+  align(left)[
+    #body
+  ]
+}
+
+#let body-style-no-indent(body) = {
+  set text(
+    font: body-font,
+    size: body-size,
+    fill: ink,
+  )
+
+  set par(
+    leading: 0.72em,
+    justify: true,
+    first-line-indent: 0pt,
+  )
+  align(left)[
+    #body
+  ]
+}
+
+#let subtle-style(body, size: body-size) = {
+  set text(font: body-font, size: size, fill: muted)
   set par(leading: 0.72em, justify: true)
-  set heading(numbering: none)
   body
 }
-#let small-label(t) = text(size: 9pt, fill: muted, weight: "medium")[#t]
-#let title(t) = text(font: display-font, size: 32pt, weight: "regular")[#t]
-#let page-title(t) = text(font: display-font, size: 27pt, weight: "regular")[#t]
-#let body-note(t) = block(fill: cool, inset: 12pt, radius: 2pt, width: 100%)[#t]
-#let formula(eq, tag: none) = block(width: 100%, fill: warm, inset: 13pt, radius: 2pt)[
-  #grid(columns: (1fr, auto, 1fr), align: (left, center, right), [], [#eq], [#if tag != none {small-label(tag)}])
-]
-#let source-page(page-no) = text(size: 9pt, fill: muted)[Original lecture notes · PDF p. #page-no]
-#let figure-image(path, caption: none, width: 100%) = {
-  image(path, width: width, fit: "contain")
-  if caption != none { v(5pt); text(size: 9pt, fill: muted)[#caption] }
-}
-#let chapter-opening(n, t, refs) = {
-  small-label[CONDENSED MATTER PHYSICS · CHAPTER #n]
-  v(35mm)
-  text(size: 68pt, weight: "regular", fill: accent)[#n]
-  v(5mm)
-  title(t)
-  v(14mm)
-  line(length: 45mm, stroke: 0.5pt + rule)
-  v(8mm)
-  text(size: 10pt, fill: muted)[#refs]
-  pagebreak()
-}
-#let section-opening(n, t) = {
-  small-label[CHAPTER I · #n]
-  v(45mm)
-  page-title(t)
-  v(8mm)
-  line(length: 45mm, stroke: 0.5pt + rule)
-  pagebreak()
-}
-#let lecture-page(heading, page-no, body) = {
-  small-label[CHAPTER I · CRYSTAL STRUCTURE]
-  v(7mm)
-  page-title(heading)
-  v(9mm)
+
+#let subtle-it-style(body) = {
+  set text(font: body-font, size: body-size, style: "italic", fill: muted)
+  set par(leading: 0.72em, justify: true)
   body
-  v(1fr)
-  line(length: 100%, stroke: 0.4pt + rule)
-  v(3pt)
-  source-page(page-no)
-  pagebreak()
 }
+
+#let source-body-style(body) = {
+  set text(font: body-font, size: source-size, fill: ink)
+  set par(leading: 0.70em, justify: true)
+  body
+}
+
+#let subtitle-style(body) = {
+  set text(
+      font: body-font,
+      size: subtitle-size,
+      fill: muted,
+      weight: 700,
+      hyphenate: false,
+    )
+
+  set par(leading: 0.72em, justify: false)
+  body
+}
+
+#let card-style(body) = {
+  set text(
+    font: body-font,
+    size: body-size,
+    fill: ink,
+  )
+
+  set par(
+    leading: 0.72em,
+    justify: true,
+    first-line-indent: 0em,
+    spacing: 0em,
+  )
+
+  align(left)[
+    #body
+  ]
+}
+
+// Text display functions
+// ----------------------
+#let display(
+  body,
+  size: display-size,
+  weight: 600,
+  fill: ink,
+) = text(
+  font: display-font,
+  size: size,
+  weight: weight,
+  fill: fill,
+)[#body]
+
+// Trying to get the text inks of different sizes aligned
+#let display-bounds(
+  body,
+  size: display-size,
+  weight: 600,
+  fill: ink,
+) = text(
+  font: display-font,
+  size: size,
+  weight: weight,
+  fill: fill,
+  top-edge: "bounds",
+  bottom-edge: "bounds",
+)[#body]
+
+#let label-txt(
+  // Thsi overrides the standard function label
+  // So either change the name to label-something
+  // Or you can calle stadard label like std.label()
+  body,
+  fill: muted,
+  size: small-size,
+  style: "normal",
+  weight: 500,
+) = text(
+  font: display-font,
+  size: size,
+  style: style,
+  weight: weight,
+  fill: fill,
+)[#body]

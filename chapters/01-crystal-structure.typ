@@ -1,14 +1,41 @@
-// CHAPTER I — original lecture PDF pp. 1–20.
-// Consolidated progressive reveals; native editable Typst prose and equations.
-// Source charts/atomic diagrams are embedded reference figures, not native drawings.
-#import "../design.typ": *
+// Chapter I, first 20 source pages. Real Chemistry II masters/components.
+#import "/design.typ": *
+#import "/masters.typ": chapter-cover, section-cover, regular-page
+#import "/components.typ": equation, book-figure
+#import "/structure.typ": ch1, sec1_1, sec1_2
 
-#chapter-opening([I], [Crystal structure], [
-  *Basic resources:* Ashcroft & Mermin, _Solid State Physics_, chapters 4, 5, 6 and 7, pages 63 through 130. C. Kittel, _Introduction to Solid State Physics_, chapters 1 & 2.
-])
+// Exact source style: the same chapter cover, section cover, regular page,
+// numbered equation blocks and book-figure captions as the chemistry book.
+#let formula(body, tag: none, section: sec1_1) = equation(
+  body, tag: tag, chapter: ch1, section: section,
+)
+#let figure-image(path, caption: none, width: 100%, section: sec1_1) = {
+  if caption == none {
+    image(path, width: width, fit: "contain")
+  } else {
+    book-figure(
+      image(path, width: width, fit: "contain"),
+      chapter: ch1,
+      section: section,
+      caption: caption,
+      width: 100%,
+      gap: 10pt,
+    )
+  }
+}
+#let lecture-page(title, source-pages, body, section: sec1_1) = regular-page(
+  [
+    #display(title, size: title-size)
+    #v(17pt)
+    #body
+  ],
+  chapter: ch1,
+  section: section,
+  reference: [Original lecture notes · PDF pp. #source-pages],
+)
 
-#section-opening([1], [Crystalline solids])
-
+#chapter-cover(ch1)
+#section-cover(ch1, sec1_1)
 #lecture-page([Long-range order vs. short-range order], [3–6], [
   #grid(columns: (1fr, 1fr), column-gutter: 10mm,
     [
@@ -90,11 +117,11 @@
   )
 ])
 
-#section-opening([2], [Crystal lattices])
+#section-cover(ch1, sec1_2)
 
 #lecture-page(['Primitive lattices' & primitive translation vectors], [15], [
   #grid(columns: (52%, 1fr), column-gutter: 8mm,
-    [#figure-image("/assets/source-figure-p15.png", caption: [Figure I.2. Drawing of an oblique 2D (Bravais) lattice.], width: 100%)],
+    [#figure-image("/assets/source-figure-p15.png", caption: [Figure I.2. Drawing of an oblique 2D (Bravais) lattice.], width: 100%, section: sec1_2)],
     [
       Following the three basis in the diagram, all the nodes of the lattice have integer indices, and thus we say the lattice is primitive.
       #v(8mm)
@@ -103,14 +130,14 @@
       #text(size: 9.5pt, fill: muted)[ Although if we speak strictly, a crystalline network is neither primitive nor centered: read "Centred cells vs 'centred lattices'" here.]
     ]
   )
-])
+], section: sec1_2)
 
 #lecture-page(['Centred' lattices], [16–18], [
   #grid(columns: (53%, 1fr), column-gutter: 8mm,
-    [#figure-image("/assets/source-figure-p18.png", caption: [Figure I.3. Drawing of a centered rectangular 2D lattice. Consolidated final annotated state.], width: 100%)],
+    [#figure-image("/assets/source-figure-p18.png", caption: [Figure I.3. Drawing of a centered rectangular 2D lattice. Consolidated final annotated state.], width: 100%, section: sec1_2)],
     [
       If any of the nodes of the lattice has a non-integer index according to the chosen base — for instance, in Figure I.3 node A is defined by translation vector
-      #formula($vec(R)_(1/2,1/2) = 1/2 vec(a)_1 + 1/2 vec(a)_2$)
+      #formula($vec(R)_(1/2,1/2) = 1/2 vec(a)_1 + 1/2 vec(a)_2$, section: sec1_2)
       *Centred lattice · non-primitive base vectors.*
 
       *Properties*
@@ -120,11 +147,11 @@
       The coordinate axes are orthogonal (as opposed to the oblique equivalent), making visualization and calculations easier.
     ]
   )
-])
+], section: sec1_2)
 
 #lecture-page([Unit cell(s)], [19–20], [
   #grid(columns: (52%, 1fr), column-gutter: 8mm,
-    [#figure-image("/assets/source-figure-p19.png", caption: [Figure I.4. Different unit cells of a centered rectangular 2D lattice.], width: 100%)],
+    [#figure-image("/assets/source-figure-p19.png", caption: [Figure I.4. Different unit cells of a centered rectangular 2D lattice.], width: 100%, section: sec1_2)],
     [
       1. Polyhedron with which we can completely fill space — without leaving any voids* — by tiling via crystalline translations, and that contains at least one node of the lattice.
       #v(5mm)
@@ -137,4 +164,4 @@
       #text(size: 9.5pt, fill: muted)[ The term tessallation or tiling defines precisely the filling of the 2D space.]
     ]
   )
-])
+], section: sec1_2)
