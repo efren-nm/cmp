@@ -1,0 +1,1545 @@
+periodictable:
+  type: book
+  title: The Principles of Chemistry, trans. G. Kamensky
+  short:
+  author:
+    name: D. 
+    family: Mendeleev
+  edition: A. J. Greenaway
+  publisher: Longmans, Green & Co. (London)
+  date: 1891
+
+epa-sf6:
+  type: web
+  title: Sulfur Hexafluoride (SF6) Basics
+  short:
+  author:
+    - name: U.S. Environmental Protection Agency
+  url: https://www.epa.gov/eps-partnership/sulfur-hexafluoride-sf6-basics
+
+tdk-varistor:
+  type: web
+  title: Multilayer Varistors
+  short:
+  author:
+    - name: TDK Electronics
+  url: https://www.tdk-electronics.tdk.com/
+
+enig-plating:
+  type: web
+  title: Proceso de niquelado químico
+  short: niquelado químico
+  author:
+    - name: Wikipedia
+  url: https://en.wikipedia.org/wiki/Electroless_nickel-phosphorus_plating 
+ 
+enig-hasl-osp:
+  type: web
+  title: Comparativa entre tipos de acabado de superficie de PCB
+  short: ENIG vs HASL vs OSP
+  author:
+    - name:
+  url: https://www.youtube.com/watch?v=BF_7ZgOpOEs
+ 
+reddit-quimica-giei:
+  type: web
+  title: Foro de intercambio de opiniones de distintios ingenieros sobre la química
+  short: Reddit de un ingeneiro sobre la química
+  author:
+    - name:
+  url: https://www.reddit.com/r/ElectricalEngineering/comments/sjl0m8/chemistry_and_electrical_engineering/?tl=es-419
+
+tin-whiskers-i:
+  type: web
+  title: Video flash sobre lo que son los bigotes de estaños
+  short: bigotes de estaño
+  author:
+    - name:
+  url: https://www.youtube.com/watch?v=bvnl0OL2ZTs
+
+tin-whiskers-ii:
+  type: web
+  title: Video explicativo de la historia y formación de los bigotes de estaño
+  short: relación de los _tin whiskers_ con Napoleón.
+  author:
+    - name:
+  url: https://www.youtube.com/watch?v=Otac6XXkp4M
+
+burns-fundamentals:
+  type: book
+  title: Fundamentals of Chemistry
+  short: Burns · Fundamentals of Chemistry
+  author: 
+    name: Burns
+    given: Ralph A.
+  edition: 3
+  publisher: Prentice Hall
+  date: 1999
+
+casabo:
+  type: book
+  title: Estructura atómica y enlace químico
+  short: Casabó · Estructura atómica y enlace químico
+  author:
+    given: Jaume
+    name: Casabó i Gispert
+  edition: 1
+  publisher:
+    name: Editorial Reverté
+    location: Barcelona
+  date: 1996
+  page-total: 420
+  serial-number:
+    isbn: "978-84-291-7189-1"
+  language: es
+  url: "https://trobes.uv.es/nde/search?query=casabo%20enlace&tab=Cataleg&search_scope=cataleg_UV&offset=0&sortby=date_d&facet=frbrgroupid,include,9081627830929672113&vid=34CVA_UV:VU1_NDE&lang=ca"
+
+casabo-enlace:
+  type: book
+  title: Estructura atómica y enlace químico
+  short: Biblioteca UV - Trobes
+  author:
+    - "Casabó i Gispert, Jaume"
+  edition: 1
+  publisher:
+    name: Editorial Reverté
+    location: Barcelona
+  date: 1996
+  page-total: 420
+  serial-number:
+    isbn: "978-84-291-7189-1"
+  language: es
+  url: "https://trobes.uv.es/nde/search?query=casabo%20enlace&tab=Cataleg&search_scope=cataleg_UV&offset=0&sortby=date_d&facet=frbrgroupid,include,9081627830929672113&vid=34CVA_UV:VU1_NDE&lang=ca"
+
+shriver-inorganica-v1:
+  type: book
+  title: Química inorgánica. I
+  short: Shriver, Atkins y Langford · Química inorgánica I
+  author:
+    - "Shriver, Duward F."
+    - "Atkins, P. W."
+    - "Langford, Cooper H."
+  publisher:
+    name: Editorial Reverté
+    location: Barcelona
+  date: 1997
+  page-total: 644
+  serial-number:
+    isbn: "978-84-291-7004-7"
+  language: es
+
+shriver-inorganica-v2:
+  type: book
+  title: Química inorgánica. II
+  short: Shriver, Atkins y Langford · Química inorgánica II
+  author:
+    - "Shriver, Duward F."
+    - "Atkins, P. W."
+    - "Langford, Cooper H."
+  publisher:
+    name: Editorial Reverté
+    location: Barcelona
+  date: 1998
+  page-total: 372
+  serial-number:
+    isbn: "978-84-291-7005-4"
+  language: es
+
+shriver-inorganica-v2-enlace:
+  type: book
+  title: Química Inorgánica, II
+  short: Biblioteca UV - Trobes
+  author:
+    - "Shriver, Duward F."
+    - "Atkins, P. W."
+    - "Langford, Cooper H."
+  publisher:
+    name: Editorial Reverté
+    location: Barcelona
+  date: 1998
+  page-total: 372
+  serial-number:
+    isbn: "978-84-291-7005-4"
+  language: es
+  url: https://trobes.uv.es/nde/fulldisplay?query=shriver%20inorganica&tab=Cataleg&search_scope=cataleg_UV&offset=0&sortby=rank&vid=34CVA_UV:VU1_NDE&lang=ca&docid=alma991001933589706258&adaptor=Local%20Search%20Engine&context=L&isFrbr=false&isHighlightedRecord=false&state=
+
+lavoisier-traite-1789:
+  type: book
+  title: Traité élémentaire de chimie
+  short: Lavoisier · Traité élémentaire de chimie
+  author:
+    - "Lavoisier, Antoine-Laurent de"
+  publisher:
+    name: Cuchet
+    location: Paris
+  date: 1789
+  language: fr
+  url: https://library.si.edu/digital-library/book/traiteyeyleyment1lavo
+
+
+proust-bleu-prusse-1794:
+  type: article
+  title: "Extrait d'un mémoire intitulé : Recherches sur le Bleu de Prusse"
+  short: Proust · Recherches sur le Bleu de Prusse
+  author:
+    - "Proust, Joseph-Louis"
+  date: 1794
+  page-range: 334-341
+  language: fr
+  parent:
+    type: periodical
+    title: Journal de Physique, de Chimie, et d'Histoire Naturelle
+    volume: 45
+
+
+fournier-proust-1999:
+  type: article
+  title: "Louis-Joseph Proust (1754-1826) était-il pharmacien ?"
+  short: Fournier · Louis-Joseph Proust
+  author:
+    - "Fournier, Josette"
+  date: 1999
+  page-range: 77-96
+  serial-number:
+    doi: "10.3406/pharm.1999.4934"
+  language: fr
+  parent:
+    type: periodical
+    title: Revue d'Histoire de la Pharmacie
+    volume: 87
+    issue: 321
+  url: https://www.persee.fr/doc/pharm_0035-2349_1999_num_87_321_4934
+
+
+dalton-new-system-1808:
+  type: book
+  title: A New System of Chemical Philosophy
+  short: Dalton · A New System of Chemical Philosophy
+  author:
+    - "Dalton, John"
+  volume: 1
+  publisher:
+    name: S. Russell for R. Bickerstaff
+    location: Manchester
+  date: 1808
+  language: en
+  url: https://library.si.edu/digital-library/book/newsystemofchemi11dalt
+
+proust-copper-1799:
+  type: article
+  title: Recherches sur le cuivre
+  short: Proust · Recherches sur le cuivre
+  author:
+    - "Proust, Joseph-Louis"
+  date: 1799
+  page-range: 26-54
+  language: fr
+  parent:
+    type: periodical
+    title: Annales de Chimie
+    volume: 32
+  note: "English translation reproduced in Henry M. Leicester and Herbert S. Klickstein, A Source Book in Chemistry, 1400–1900, Harvard University Press, 1952."
+  url: https://web.lemoyne.edu/giunta/proust.html
+
+leicester-klickstein-sourcebook:
+  type: book
+  title: A Source Book in Chemistry, 1400–1900
+  short: Leicester & Klickstein · A Source Book in Chemistry
+  author:
+    - "Leicester, Henry M."
+    - "Klickstein, Herbert S."
+  publisher:
+    name: Harvard University Press
+    location: Cambridge, Massachusetts
+  date: 1952
+  language: en
+
+berryman-democritus:
+  type: web
+  title: Democritus
+  short: Berryman · Democritus
+  author:
+    - "Berryman, Sylvia"
+  date: 2023-01-07
+  parent:
+    type: web
+    title: Stanford Encyclopedia of Philosophy
+  url:
+    value: https://plato.stanford.edu/entries/democritus/
+    date: 2026-08-19
+
+dalton1808new:
+  type: Book
+  author: Dalton, John
+  title: A New System of Chemical Philosophy
+  volume: 1
+  part: 1
+  date: 1808
+  publisher: Printed by S. Russell for R. Bickerstaff
+  location: Manchester / London
+  pages: 211–216
+  chapter: On Chemical Synthesis
+
+dalton1805absorption:
+  type: Article
+  author: Dalton, John
+  title: On the Absorption of Gases by Water and other Liquids
+  journal: Memoirs of the Literary and Philosophical Society of Manchester
+  series: Second Series
+  volume: 1
+  date: 1805
+  pages: 271–287
+  note: Read October 21, 1803
+
+sterner2011conservation:
+  type: Article
+  author: 
+    - Sterner, Robert W.
+    - Small, Gaston E.
+    - Hood, James M.
+  title: The Conservation of Mass
+  journal: Nature Education Knowledge
+  volume: 3
+  issue: 10
+  pages: 20
+  date: 2011
+
+cuo_rectifier:
+  type: web
+  title: Video flash sobre una aplicación de CuO como rectificador
+  short: ejemplo tecnológico de los óxidos de cobre
+  author:
+    - name:
+  url: https://www.youtube.com/watch?v=v50bj1MYjuM
+
+cuo_camera:
+  type: web
+  title: Video flash sobre una aplicación de CuO como sensor
+  short: ejemplo tecnológico de los óxidos de cobre 2
+  author:
+    - name:
+  url: https://www.youtube.com/watch?v=O7xH9ZSp_B4
+
+
+iupac-guia:
+  type: web
+  title: Enlace a las guías breves de nomenclatura de IUPAC
+  short: página web de la guía breve de nomenclatura inorgánica
+  author:
+    - name:
+  url: https://iupac.org/what-we-do/nomenclature/brief-guides/
+
+maxwell:
+  type: article
+  title: "A Dynamical Theory of the Electromagnetic Field"
+  author:
+    - name: Maxwell
+      given: James Clerk
+  date: 1865
+  journal: Philosophical Transactions of the Royal Society of London
+  volume: 155
+  pages: 459–512
+  doi: 10.1098/rstl.1865.0008
+  url: "https://royalsocietypublishing.org"
+
+rutherford1919collision:
+  type: article
+  title: "Collision of α particles with light atoms. IV. An anomalous effect in nitrogen"
+  author:
+    - name: Rutherford
+      given: Ernest
+  date: 1919
+  journal: "The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science"
+  volume: 37
+  number: 222
+  pages: 581–587
+  doi: 10.1080/14786440608635919
+  url: "https://tandfonline.com"
+
+chadwick1932existence:
+  type: article
+  title: "Possible Existence of a Neutron"
+  author:
+    - name: Chadwick
+      given: James
+  date: 1932
+  journal: Nature
+  volume: 129
+  number: 3252
+  pages: 312
+  doi: 10.1038/129312a0
+  url: "https://nature.com"
+
+thomson1904structure:
+  type: article
+  title: "On the Structure of the Atom: an Investigation of the Stability and Periods of Oscillation of a number of Corpuscles arranged at equal intervals around the Circumference of a Circle; with Application of the results to the Theory of Atomic Structure"
+  author:
+    name: Thomson
+    given: J. J.
+  date: 1904
+  journal: "The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science"
+  volume: 7
+  number: 39
+  pages: 237–265
+  doi: 10.1080/14786440409463107
+  url: "https://www.tandfonline.com/doi/abs/10.1080/14786440409463107"
+
+balmer-1885:
+  type: Article
+  author: "Balmer, Johann Jakob"
+  title: "Notiz über die Spectrallinien des Wasserstoffs"
+  date: 1885
+  page-range: 80-87
+  serial-number:
+    doi: "10.1002/andp.18852610506"
+  parent:
+    type: Periodical
+    title: "Annalen der Physik und Chemie"
+    volume: 25
+
+rydberg-1890:
+  type: Book
+  author: "Rydberg, Johannes Robert"
+  title: "Recherches sur la constitution des spectres d'émission des éléments chimiques"
+  date: 1890
+  volume: 23
+  issue: 11
+  page-total: 155
+  publisher: "Kungliga Vetenskapsakademien"
+  parent:
+    type: Periodical
+    title: "Kungliga Svenska Vetenskapsakademiens Handlingar"
+
+vogel-1879-hydrogen:
+  type: Article
+  author: "Vogel, Hermann Wilhelm"
+  title: "Über die Spectra des Wasserstoffs, Quecksilbers und Stickstoffs"
+  date: 1879
+  page-range: 586-604
+  parent:
+    type: Periodical
+    title: "Monatsberichte der Königlichen Preussischen Akademie der Wissenschaften zu Berlin"
+
+planck-1900:
+  type: Article
+  author:
+    given: Max
+    name: Planck
+  title: "Zur Theorie des Gesetzes der Energieverteilung im Normalspectrum"
+  date: 1900
+  page-range: 237-245
+  parent:
+    type: Periodical
+    title: "Verhandlungen der Deutschen Physikalischen Gesellschaft"
+    volume: 2
+
+einstein-1905:
+  type: Article
+  author:
+    - given: Albert
+      name: Einstein
+  title: "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt"
+  date: 1905
+  page-range: 132-148
+  serial-number:
+    doi: "10.1002/andp.19053220607"
+  parent:
+    type: Periodical
+    title: "Annalen der Physik"
+    volume: 322
+    issue: 6
+
+crookes-tube:
+  type: web
+  title: "Crookes tube two views"
+  author:
+    - "D-Kuru"
+  date: 2007-03-29
+  publisher: "Wikimedia Commons"
+  url: "https://commons.wikimedia.org/wiki/File:Crookes_tube_two_views.jpg"
+  note: "Image. Licensed under Creative Commons Attribution-ShareAlike 3.0 Austria (CC BY-SA 3.0 AT). Preferred attribution: D-Kuru/Wikimedia Commons. License: https://creativecommons.org/licenses/by-sa/3.0/at/"
+
+crookes-csic:
+  type: web
+  title: Video educativo del CSIC de un tubo de Crookes de su museo
+  short: tubo de Crookes en funcionamiento
+  author:
+    - name:
+  url: https://www.youtube.com/watch?v=nynb_kjXYWU
+
+bohr-1913:
+  type: Article
+  author:
+    - given: Niels
+      name: Bohr
+  title: "I. On the Constitution of Atoms and Molecules"
+  date: 1913
+  page-range: 1-25
+  serial-number:
+    doi: "10.1080/14786441308634955"
+  parent:
+    type: Periodical
+    title: "The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science"
+    volume: 26
+    issue: 151
+
+debroglie1923ondes:
+  type: article
+  title: Ondes et quanta
+  short: de Broglie · Ondes et quanta
+  author:
+    - "de Broglie, Louis"
+  date: 1923
+  page-range: 507-510
+  language: fr
+  parent:
+    type: periodical
+    title: Comptes rendus de l'Académie des sciences
+    volume: 177
+
+
+debroglie1925quanta:
+  type: article
+  title: Recherches sur la théorie des quanta
+  short: de Broglie · Recherches sur la théorie des quanta
+  author:
+    - "de Broglie, Louis"
+  date: 1925
+  page-range: 22-128
+  language: fr
+  note: "Thèse soutenue à Paris en 1924; publication dans Annales de Physique."
+  serial-number:
+    doi: "10.1051/anphys/192510030022"
+  parent:
+    type: periodical
+    title: Annales de Physique
+    volume: 3
+
+
+davisson-germer1927:
+  type: article
+  title: The Scattering of Electrons by a Single Crystal of Nickel
+  short: Davisson & Germer · Electron diffraction
+  author:
+    - "Davisson, Clinton J."
+    - "Germer, Lester H."
+  date: 1927
+  page-range: 558-560
+  language: en
+  serial-number:
+    doi: "10.1038/119558a0"
+  parent:
+    type: periodical
+    title: Nature
+    volume: 119
+
+
+thomson-reid1927:
+  type: article
+  title: Diffraction of Cathode Rays by a Thin Film
+  short: Thomson & Reid · Electron diffraction
+  author:
+    - "Thomson, George Paget"
+    - "Reid, Alexander"
+  date: 1927
+  page-range: 890
+  language: en
+  serial-number:
+    doi: "10.1038/119890a0"
+  parent:
+    type: periodical
+    title: Nature
+    volume: 119
+
+
+heisenberg1925umdeutung:
+  type: article
+  title: Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen
+  short: Heisenberg · Umdeutung
+  author:
+    - "Heisenberg, Werner"
+  date: 1925
+  page-range: 879-893
+  language: de
+  serial-number:
+    doi: "10.1007/BF01328377"
+  parent:
+    type: periodical
+    title: Zeitschrift für Physik
+    volume: 33
+
+
+born-jordan1925:
+  type: article
+  title: Zur Quantenmechanik
+  short: Born & Jordan · Zur Quantenmechanik
+  author:
+    - "Born, Max"
+    - "Jordan, Pascual"
+  date: 1925
+  page-range: 858-888
+  language: de
+  serial-number:
+    doi: "10.1007/BF01328531"
+  parent:
+    type: periodical
+    title: Zeitschrift für Physik
+    volume: 34
+
+
+born-heisenberg-jordan1926:
+  type: article
+  title: Zur Quantenmechanik II
+  short: Born, Heisenberg & Jordan · Zur Quantenmechanik II
+  author:
+    - "Born, Max"
+    - "Heisenberg, Werner"
+    - "Jordan, Pascual"
+  date: 1926
+  page-range: 557-615
+  language: de
+  serial-number:
+    doi: "10.1007/BF01379806"
+  parent:
+    type: periodical
+    title: Zeitschrift für Physik
+    volume: 35
+
+
+schrodinger1926eigenwert:
+  type: article
+  title: Quantisierung als Eigenwertproblem
+  short: Schrödinger · Quantisierung als Eigenwertproblem I
+  author:
+    - "Schrödinger, Erwin"
+  date: 1926
+  page-range: 361-376
+  language: de
+  serial-number:
+    doi: "10.1002/andp.19263840404"
+  parent:
+    type: periodical
+    title: Annalen der Physik
+    volume: 384
+    issue: 4
+
+
+schrodinger1926equivalence:
+  type: article
+  title: Über das Verhältnis der Heisenberg-Born-Jordanschen Quantenmechanik zu der meinen
+  short: Schrödinger · Relación entre mecánica matricial y ondulatoria
+  author:
+    - "Schrödinger, Erwin"
+  date: 1926
+  page-range: 734-756
+  language: de
+  serial-number:
+    doi: "10.1002/andp.19263840804"
+  parent:
+    type: periodical
+    title: Annalen der Physik
+    volume: 384
+    issue: 8
+
+
+heisenberg1927uncertainty:
+  type: article
+  title: Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik
+  short: Heisenberg · Unschärferelation
+  author:
+    - "Heisenberg, Werner"
+  date: 1927
+  page-range: 172-198
+  language: de
+  serial-number:
+    doi: "10.1007/BF01397280"
+  parent:
+    type: periodical
+    title: Zeitschrift für Physik
+    volume: 43
+
+pluecker1858:
+  type: article
+  title: Ueber die Einwirkung des Magneten auf die elektrischen Entladungen in verdünnten Gasen
+  author:
+    - Plücker, Julius
+  date: 1858
+  page-range: 88-106
+  serial-number:
+    doi: "10.1002/andp.18581790106"
+  parent:
+    type: periodical
+    title: Annalen der Physik
+    volume: 179
+
+hittorf1869:
+  type: article
+  title: Ueber die Elektricitätsleitung der Gase
+  author:
+    - Hittorf, Johann Wilhelm
+  date: 1869
+  page-range: 1-31
+  serial-number:
+    doi: "10.1002/andp.18692120102"
+  parent:
+    type: periodical
+    title: Annalen der Physik
+    volume: 212
+
+crookes1879:
+  type: article
+  title: On Radiant Matter
+  author:
+    - Crookes, William
+  date: 1879
+  page-range: 419-423
+  serial-number:
+    doi: "10.1038/020419a0"
+  parent:
+    type: periodical
+    title: Nature
+    volume: 20
+
+perrin1895:
+  type: article
+  title: Nouvelles propriétés des rayons cathodiques
+  author:
+    - Perrin, Jean
+  date: 1895
+  page-range: 1130-1134
+  parent:
+    type: periodical
+    title: Comptes rendus de l'Académie des Sciences
+    volume: 121
+
+thomson1897:
+  type: article
+  title: Cathode Rays
+  author:
+    - Thomson, Joseph John
+  date: 1897
+  page-range: 293-316
+  serial-number:
+    doi: "10.1080/14786449708621070"
+  parent:
+    type: periodical
+    title: The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science
+    volume: 44
+    issue: 269
+
+rutherford1911:
+  type: article
+  title: The Scattering of α and β Particles by Matter and the Structure of the Atom
+  author:
+    - Rutherford, Ernest
+  date: 1911
+  page-range: 669-688
+  serial-number:
+    doi: "10.1080/14786440508637080"
+  parent:
+    type: periodical
+    title: The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science
+    volume: 21
+    issue: 125
+
+bohr-atom-model:
+  type: web
+  title: Bohr atom model
+  author:
+    - JabberWok
+  date: 2007-02-23
+  url: https://commons.wikimedia.org/wiki/File:Bohr_atom_model.svg
+  note: "Schematic illustration of a bound-bound transition in the Bohr atomic model. Wikimedia Commons. CC BY-SA 3.0."
+
+born1926probability:
+  type: article
+  title: Zur Quantenmechanik der Stoßvorgänge
+  author:
+    - Born, Max
+  date: 1926
+  page-range: 863-867
+  language: de
+  serial-number:
+    doi: "10.1007/BF01397477"
+  parent:
+    type: periodical
+    title: Zeitschrift für Physik
+    volume: 37
+    issue: 12
+
+wikipedia-atomic-orbital:
+  type: web
+  title: Atomic orbital
+  author:
+    - Wikipedia contributors
+  date: 2026-09-05
+  url: https://en.wikipedia.org/wiki/Atomic_orbital
+  note: "Wikipedia, The Free Encyclopedia. Accessed 2026-09-08."
+
+uhlenbeck-goudsmit1925:
+  type: article
+  title: Ersetzung der Hypothese vom unmechanischen Zwang durch eine Forderung bezüglich des inneren Verhaltens jedes einzelnen Elektrons
+  author:
+    - Uhlenbeck, George E.
+    - Goudsmit, Samuel A.
+  date: 1925
+  page-range: 953-954
+  language: de
+  serial-number:
+    doi: "10.1007/BF01558878"
+  parent:
+    type: periodical
+    title: Die Naturwissenschaften
+    volume: 13
+    issue: 47
+
+voss-andreae2009-spin-family:
+  type: web
+  title: "Spin Family (Bosons and Fermions)"
+  author:
+    - Voss-Andreae, Julian
+  date: 2009
+  url: https://commons.wikimedia.org/wiki/File:%22Father%22_and_%22Mother%22_of_the_series_%22Spin_Family%22.jpg
+  note: "Steel and silk sculpture. Wikimedia Commons. CC BY-SA 3.0."
+
+pauli1925exclusion:
+  type: article
+  title: Über den Zusammenhang des Abschlusses der Elektronengruppen im Atom mit der Komplexstruktur der Spektren
+  author:
+    - Pauli, Wolfgang
+  date: 1925
+  page-range: 765-783
+  language: de
+  serial-number:
+    doi: "10.1007/BF02980631"
+  parent:
+    type: periodical
+    title: Zeitschrift für Physik
+    volume: 31
+    issue: 1
+  
+bohr1922aufbau:
+    type: article
+    title: Der Bau der Atome und die physikalischen und chemischen Eigenschaften der Elemente
+    author:
+      - "Bohr, Niels"
+    date: 1922
+    page-range: 1-67
+    language: de
+    serial-number:
+      doi: "10.1007/BF01326955"
+    parent:
+      type: periodical
+      title: Zeitschrift für Physik
+      volume: 9
+      issue: 1
+
+janet1928:
+  type: book
+  title: Essais de classification hélicoïdale des éléments chimiques
+  author:
+    - "Janet, Charles"
+  date: 1928
+  language: fr
+  publisher:
+    name: Imprimerie Départementale de l'Oise
+    location: Beauvais
+
+janet1930:
+  type: book
+  title: Concordance de l'arrangement quantique de base des électrons planétaires des atomes, avec la classification scalariforme, hélicoïdale, des éléments chimiques
+  author:
+    - "Janet, Charles"
+  date: 1930
+  language: fr
+  publisher:
+    name: Imprimerie Départementale de l'Oise
+    location: Beauvais
+
+karapetoff1930:
+  type: article
+  title: A Chart of Consecutive Sets of Electronic Orbits within Atoms of Chemical Elements
+  author:
+    - "Karapetoff, Vladimir"
+  date: 1930
+  page-range: 609-624
+  language: en
+  serial-number:
+    doi: "10.1016/S0016-0032(30)91131-3"
+  parent:
+    type: periodical
+    title: Journal of the Franklin Institute
+    volume: 210
+    issue: 5
+
+madelung1936:
+  type: book
+  title: Die mathematischen Hilfsmittel des Physikers
+  author:
+    - "Madelung, Erwin"
+  date: 1936
+  language: de
+  publisher:
+    name: Springer
+    location: Berlin
+  serial-number:
+    doi: "10.1007/978-3-662-02177-4"
+  note: "La regla empírica de ordenación electrónica aparece en torno a la p. 359."
+
+yi1947diagram:
+  type: article
+  title: Letter to the Editor
+  author:
+    - "Yi, Pao-Fang"
+  date: 1947
+  page-range: 567
+  language: en
+  parent:
+    type: periodical
+    title: Journal of Chemical Education
+    volume: 24
+    issue: 11
+
+pauling1947general:
+  type: book
+  title: "General Chemistry: An Introduction to Descriptive Chemistry and Modern Chemical Theory"
+  author:
+    - "Pauling, Linus"
+  date: 1947
+  language: en
+  publisher:
+    name: W. H. Freeman
+    location: San Francisco
+  page-total: 595
+  note: "Véase la representación de la estructura electrónica alrededor de la p. 128."
+
+moeller1952inorganic:
+  type: book
+  title: "Inorganic Chemistry: An Advanced Textbook"
+  author:
+    - "Moeller, Therald"
+  date: 1952
+  language: en
+  publisher:
+    name: John Wiley & Sons
+    location: New York
+  page-total: 966
+  note: "Véanse especialmente las pp. 96-97 y 102 para el esquema de construcción electrónica."
+
+klechkovskii1962:
+  type: article
+  title: Justification of the Rule for Successive Filling of (n + l) Groups
+  author:
+    - "Klechkovskii, V. M."
+  date: 1962
+  page-range: 334-335
+  language: en
+  parent:
+    type: periodical
+    title: Soviet Physics JETP
+    volume: 14
+    issue: 2
+  note: "English translation of the Russian original in Zhurnal Eksperimental'noi i Teoreticheskoi Fiziki, vol. 41, pp. 465-466; received 16 February 1961."
+
+madelung-rule-chemmix:
+  type: web
+  title: Madelung rule
+  author:
+    - "Chemmix"
+  date: 2010-09-18
+  url: "https://commons.wikimedia.org/wiki/File:Madelung_rule.svg"
+  note: "Wikimedia Commons. SVG. Own work. Licensed under CC BY-SA 4.0 (also available under earlier CC BY-SA versions and GFDL)."
+
+jensen2007spdf:
+  type: article
+  title: The Origin of the s, p, d, f Orbital Labels
+  author:
+    - "Jensen, William B."
+  date: 2007
+  page-range: 757-758
+  language: en
+  serial-number:
+    doi: "10.1021/ed084p757"
+  parent:
+    type: periodical
+    title: Journal of Chemical Education
+    volume: 84
+    issue: 5
+
+hund1925spectra:
+  type: article
+  title: Zur Deutung verwickelter Spektren, insbesondere der Elemente Scandium bis Nickel
+  author:
+    - "Hund, Friedrich"
+  date: 1925
+  page-range: 345-371
+  language: de
+  serial-number:
+    doi: "10.1007/BF01328319"
+  parent:
+    type: periodical
+    title: Zeitschrift für Physik
+    volume: 33
+    issue: 1
+
+hund1927spectra:
+  type: book
+  title: Linienspektren und Periodisches System der Elemente
+  author:
+    - "Hund, Friedrich"
+  date: 1927
+  language: de
+  page-total: 221
+  serial-number:
+    doi: "10.1007/978-3-642-49831-2"
+  publisher:
+    name: Springer
+    location: Berlin
+
+geim1997frog-video:
+  type: web
+  title: Magnetic levitation of a frog
+  short: rana levitando en un campo magnético
+  author:
+    - "Geim, Andre K."
+  date: 1997
+  url: "https://www.youtube.com/watch?v=A1vyB-O5i6E"
+  note: "Demonstration of diamagnetic levitation of a live frog in a strong magnetic field; experiment performed at the High Field Magnet Laboratory, University of Nijmegen."
+
+mendeleev1869periodic:
+  type: article
+  title: Sootnoshenie svoistv s atomnym vesom elementov
+  author:
+    - "Mendeleev, Dmitri Ivanovich"
+  date: 1869
+  page-range: 60-77
+  language: ru
+  parent:
+    type: periodical
+    title: Zhurnal Russkogo Khimicheskogo Obshchestva
+    volume: 1
+    issue: 2-3
+  note: "Original publication of Mendeleev's periodic system; the periodic table appears in this paper."
+
+mendeleev1869german:
+  type: article
+  title: Über die Beziehungen der Eigenschaften zu den Atomgewichten der Elemente
+  author:
+    - "Mendeleev, Dmitri Ivanovich"
+  date: 1869
+  page-range: 405-406
+  language: de
+  parent:
+    type: periodical
+    title: Zeitschrift für Chemie
+    volume: 12
+
+mendeleev1869table-loc:
+  type: web
+  title: First periodic table of chemical elements demonstrating the periodic law
+  author:
+    - "Mendeleev, Dmitri Ivanovich"
+  date: 1869
+  url: "https://www.loc.gov/item/92517587/"
+  publisher:
+    name: Library of Congress
+  note: "Historical reproduction of Mendeleev's first periodic table."
+
+pauling1932electronegativity:
+  type: article
+  title: The Nature of the Chemical Bond. IV. The Energy of Single Bonds and the Relative Electronegativity of Atoms
+  author:
+    - "Pauling, Linus"
+  date: 1932
+  page-range: 3570-3582
+  language: en
+  serial-number:
+    doi: "10.1021/ja01348a011"
+  parent:
+    type: periodical
+    title: Journal of the American Chemical Society
+    volume: 54
+    issue: 9
+
+hiorns2008seizure:
+  type: misc
+  title: Seizure
+  author:
+    - "Hiorns, Roger"
+  date: 2008
+  publisher:
+    name: Artangel
+    location: London
+  short: increíble proyecto realizado con la sal inorgánica CuSO4
+  url: "https://www.artangel.org.uk/project/seizure/"
+  note: "Instalación realizada originalmente en Harper Road, Londres."
+
+born1919gittertheorie:
+  type: article
+  title: Eine thermochemische Anwendung der Gittertheorie
+  author:
+    - "Born, Max"
+  date: 1919
+  page-range: 13-24
+  language: de
+  parent:
+    type: periodical
+    title: Verhandlungen der Deutschen Physikalischen Gesellschaft
+    volume: 21
+    issue: 1-2
+
+haber1919waermetoenung:
+  type: article
+  title: Betrachtungen zur Theorie der Wärmetönung
+  author:
+    - "Haber, Fritz"
+  date: 1919
+  page-range: 750-768
+  language: de
+  parent:
+    type: periodical
+    title: Verhandlungen der Deutschen Physikalischen Gesellschaft
+    volume: 21
+
+orbitron:
+  type: Web
+  title: "The Orbitron: A Gallery of Atomic Orbitals"
+  author: "Winter, Mark"
+  date: 2023
+  short: The Orbitron
+  url: "https://winter.group.shef.ac.uk/orbitron/"
+
+rontgen1895:
+  type: Article
+  title: "Ueber eine neue Art von Strahlen (Vorläufige Mittheilung)"
+  author: "Röntgen, Wilhelm Conrad"
+  date: 1895
+  parent:
+    type: Periodical
+    title: "Sitzungsberichte der Würzburger Physik.-medic. Gesellschaft"
+  page-range: "137-147"
+
+friedrich1912:
+  type: Article
+  title: "Interferenz-Erscheinungen bei Röntgenstrahlen"
+  author:
+    - "Friedrich, Walther"
+    - "Knipping, Paul"
+    - "Laue, Max von"
+  date: 1912
+  parent:
+    type: Periodical
+    title: "Sitzungsberichte der Königlich Bayerischen Akademie der Wissenschaften, Mathematisch-Physikalische Klasse"
+  page-range: "303-322"
+  url:
+    value: "https://publikationen.badw.de/en/003395746"
+    date: 2026-09-16
+
+bragg1913:
+  type: Article
+  title: "The Diffraction of Short Electromagnetic Waves by a Crystal"
+  author:
+    - "Bragg, William Lawrence"
+  date: 1913
+  parent:
+    type: Periodical
+    title: "Proceedings of the Cambridge Philosophical Society"
+    volume: 17
+  page-range: "43-57"
+
+lewis1916atom:
+  type: article
+  title: The Atom and the Molecule
+  short: Lewis · The Atom and the Molecule
+  author:
+    - "Lewis, Gilbert N."
+  date: 1916
+  page-range: 762-785
+  language: en
+  serial-number:
+    doi: "10.1021/ja02261a002"
+  parent:
+    type: periodical
+    title: Journal of the American Chemical Society
+    volume: 38
+    issue: 4
+
+langmuir1919electrons:
+  type: article
+  title: The Arrangement of Electrons in Atoms and Molecules
+  short: Langmuir · Arrangement of Electrons
+  author:
+    - "Langmuir, Irving"
+  date: 1919
+  page-range: 868-934
+  language: en
+  serial-number:
+    doi: "10.1021/ja02227a002"
+  parent:
+    type: periodical
+    title: Journal of the American Chemical Society
+    volume: 41
+    issue: 6
+
+heitler-london1927:
+  type: article
+  title: Wechselwirkung neutraler Atome und homöopolare Bindung nach der Quantenmechanik
+  short: Heitler & London · Quantenmechanik der homöopolaren Bindung
+  author:
+    - "Heitler, Walter"
+    - "London, Fritz"
+  date: 1927
+  page-range: 455-472
+  language: de
+  serial-number:
+    doi: "10.1007/BF01397394"
+  parent:
+    type: periodical
+    title: Zeitschrift für Physik
+    volume: 44
+    issue: "6-7"
+  
+ej-om-formaldehido:
+  type: web
+  title: LUMO of formaldehide
+  author:
+    - "Ben Mills"
+  date: 2010-09-18
+  url: "https://commons.wikimedia.org/wiki/File:Formaldehyde-LUMO-transparent-3D-balls.png"
+  note: "Wikimedia Commons. SVG. Own work. Licensed under CC BY-SA 4.0 (also available under earlier CC BY-SA versions and GFDL)."
+
+du2016highorder:
+  type: Article
+  title: High-order harmonic generation of the N2 molecule in two-color circularly polarized laser fields
+  author:
+    - Du, Hui
+    - Zhang, Jun
+    - Ben, Shuai
+    - Zhong, Hui-Ying
+    - Xu, Tong-Tong
+    - Guo, Jing
+    - Liu, Xue-Shen
+  date: 2016
+  page-range: "043202"
+  serial-number:
+    doi: "10.1088/1674-1056/25/4/043202"
+  parent:
+    type: Periodical
+    title: Chinese Physics B
+    volume: 25
+    issue: 4
+
+drude1900-electron-theory-metals-1:
+  type: Article
+  title: Zur Elektronentheorie der Metalle
+  author:
+    - Drude, Paul
+  date: 1900
+  page-range: 566-613
+  language: de
+  serial-number:
+    doi: "10.1002/andp.19003060312"
+  parent:
+    type: Periodical
+    title: Annalen der Physik
+    volume: 306
+    issue: 3
+
+drude1900-electron-theory-metals-2:
+  type: Article
+  title: "Zur Elektronentheorie der Metalle; II. Teil. Galvanomagnetische und thermomagnetische Effecte"
+  author:
+    - Drude, Paul
+  date: 1900
+  page-range: 369-402
+  language: de
+  serial-number:
+    doi: "10.1002/andp.19003081102"
+  parent:
+    type: Periodical
+    title: Annalen der Physik
+    volume: 308
+    issue: 11
+
+london-1930:
+  type: Article
+  title: "Zur Theorie und Systematik der Molekularkräfte"
+  author:
+      name: Fritz
+      family: London
+  date: 1930
+  parent:
+    type: Periodical
+    title: "Zeitschrift für Physik"
+    volume: 63
+  page-range: 245-279
+  doi: "10.1007/BF01421741"
+
+keesom-1921:
+  type: Article
+  title: "The second virial coefficient for gases whose molecules are dipoles"
+  author: "Keesom, Willem Hendrik"
+  date: 1921
+  url: "https://universiteitleiden.nl"
+  parent:
+    type: Periodical
+    title: "Communications from the Physical Laboratory of the University of Leiden"
+    volume: "Supplement No. 24a"
+
+debye-1920:
+  type: Article
+  title: "Die van der Waalsschen Kohäsionskräfte"
+  author: "Debye, Peter J. W."
+  date: 1920
+  doi: "10.1002/andp.19213690105"
+  url: "https://wiley.com"
+  parent:
+    type: Periodical
+    title: "Physikalische Zeitschrift"
+    volume: 21
+    page-range: 178-187
+
+mems:
+  type: web
+  title: Entrada de los MEMs de la Wikipedia
+  author:
+  date:
+  short: entrada de la Wikipedia de los MEMs
+  url: "https://en.wikipedia.org/wiki/MEMS"
+  note:
+
+uplife:
+  type: web
+  title: Video de un proyecto de InsideTheMagic.net donde recrean el vuelo de la casa de UP
+  author:
+  date:
+  short: uno de los proyectos de InsideTheMagic.net
+  url: "https://www.youtube.com/watch?v=rV6rNqin4P8"
+  note:
+
+h2pemwiki:
+  type: web
+  title: Figura de la Wikipedia de una PEM
+  author:
+  date:
+  short: entrada de la Wikipedia de los MEMs.
+  url: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Proton_Exchange_Fuel_Cell_Diagram-es.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  note:
+
+climeworks-mammoth:
+  type: Web
+  title: "Mammoth: our newest direct air capture and storage facility"
+  author: Climeworks
+  short: este en Islandia
+  date: 2024
+  url: "https://climeworks.com/plant-mammoth"
+
+nasa-silicone-potting:
+  type: Report
+  title: Advanced Sensors Technology Survey
+  author:
+    - Cooper, Tommy G.
+    - Costello, David J.
+    - Davis, Jerry G.
+    - Horst, Richard L.
+    - Lessard, Charles S.
+    - Peel, H. Herbert
+    - Tolliver, Robert
+  date: 1992
+  publisher: NASA
+  serial-number:
+    report: NASA-CR-185691
+  url: "https://ntrs.nasa.gov/citations/19930005305"
+
+nasa-sylgard-encapsulation:
+  type: Report
+  title: Accelerated/Abbreviated Testing of Solar Cell Encapsulant Systems
+  date: 1978
+  publisher: NASA
+  serial-number:
+    report: NASA-CR-157944
+  url: "https://ntrs.nasa.gov/citations/19790004374"
+
+erfani2024-haber-bosch:
+  type: Article
+  title: "Recent advances and intensifications in Haber-Bosch ammonia synthesis process"
+  author:
+    - Erfani, Navid
+    - Baharudin, Luqmanulhakim
+    - Watson, Matthew
+  date: 2024
+  page-range: 109962
+  serial-number:
+    doi: "10.1016/j.cep.2024.109962"
+  parent:
+    type: Periodical
+    title: Chemical Engineering and Processing - Process Intensification
+    volume: 204
+  
+haber1913-ammonia:
+  type: Article
+  title: Über die technische Darstellung von Ammoniak aus den Elementen
+  author:
+    - Haber, Fritz
+    - Le Rossignol, Robert
+  date: 1913
+  page-range: 53-72
+  serial-number:
+    doi: "10.1002/bbpc.19130190201"
+  parent:
+    type: Periodical
+    title: Zeitschrift für Elektrochemie und angewandte physikalische Chemie
+    volume: 19
+    issue: 2
+  
+haber-bosch-mittasch-1912:
+  type: Patent
+  title: Producing ammonia
+  author:
+    - Haber, Fritz
+    - Bosch, Carl
+    - Mittasch, Alwin
+  date: 1915
+  serial-number:
+    patent: US1149510A
+  url: "https://patents.google.com/patent/US1149510A/en"
+
+phosphorus-explosion-1918:
+  type: Web
+  title: Phosphorus explosion
+  author:
+    - U.S. Government
+  date: 1918-08-15
+  organization: Wikimedia Commons
+  note: "Night attack with phosphorus bombs in maneuvers, First Corps School, Gondrecourt, France. ARC identifier 530741. Public domain."
+  url: "https://commons.wikimedia.org/wiki/File:Phosphorus_explosion.gif"
+
+uhrin2015-red-phosphorus:
+  type: Web
+  title: Red phosphorus
+  author:
+    - Uhrin, Martin
+  date: 2015-08-06
+  organization: Wikimedia Commons
+  note: "Unit cell of red phosphorus containing 42 atoms, space group P-1. Licensed under CC BY-SA 4.0."
+  url: "https://commons.wikimedia.org/wiki/File:Red_phosphorus.png"
+
+radisavljevic2011-mos2:
+  type: Article
+  title: Single-layer MoS2 transistors
+  author:
+    - Radisavljevic, Branimir
+    - Radenovic, Aleksandra
+    - Brivio, Jacopo
+    - Giacometti, Valentina
+    - Kis, Andras
+  date: 2011
+  page-range: 147-150
+  serial-number:
+    doi: "10.1038/nnano.2010.279"
+  parent:
+    type: Periodical
+    title: Nature Nanotechnology
+    volume: 6
+    issue: 3
+
+brown2018-central-science:
+  type: Book
+  title: "Chemistry: The Central Science"
+  author:
+    - Brown, Theodore L.
+    - LeMay, H. Eugene
+    - Bursten, Bruce E.
+    - Murphy, Catherine J.
+    - Woodward, Patrick M.
+    - Stoltzfus, Matthew W.
+  edition: 14
+  date: 2018
+  publisher: Pearson
+  serial-number:
+    isbn: "9781292221328"
+
+nist-oxygen-electron-affinity:
+  type: Web
+  title: Oxygen, atomic
+  author:
+    - National Institute of Standards and Technology
+  organization: NIST Chemistry WebBook, SRD 69
+  url: "https://webbook.nist.gov/cgi/cbook.cgi?ID=C17778802&Mask=1061"
+  note: "Gas phase ion energetics data; electron affinity determinations for atomic oxygen."
+
+wikipedia-perborato-sodio:
+  type: Web
+  title: "Perborato de sodio"
+  author:
+    - Wikipedia contributors
+  url: "https://es.wikipedia.org/wiki/Perborato_de_sodio"
+  parent:
+    title: "Wikipedia, la enciclopedia libre"
+
+commons-sodium-percarbonate-xtal:
+  type: Web
+  title: "Archivo:Sodium-percarbonate-xtal-100K-2003-CM-3D-balls.png"
+  author:
+    - Wikimedia Commons contributors
+  url: "https://es.wikipedia.org/wiki/Percarbonato_de_sodio#/media/Archivo:Sodium-percarbonate-xtal-100K-2003-CM-3D-balls.png"
+  parent:
+    title: "Wikimedia Commons"
+
+theep2017-carbon-snake:
+  type: Web
+  title: "Carbon snake2.jpg"
+  author:
+    - Thee.p
+  date: 2017-02-22
+  organization: Wikimedia Commons
+  url: "https://commons.wikimedia.org/wiki/File:Carbon_snake2.jpg"
+  note: "Own work. Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)."
+
+oelen-halogens:
+  type: web
+  title: "File:Halogens.jpg"
+  author: "Oelen, Wilco"
+  date: 2011-06-05
+  url: "https://commons.wikimedia.org/wiki/File:Halogens.jpg"
+
+sola-sulfurico-cobre:
+  type: Web
+  title: "Ácido sulfúrico y cobre"
+  author:
+    - Solá de los Santos, Jaime
+  organization: Heurema
+  url: "https://www.heurema.com/QG51N.htm"
+  note: "Sección «Química a la gota». Experimento sobre la reacción del cobre con ácido sulfúrico concentrado."
+
+greenwood1997-elements:
+  type: Book
+  title: Chemistry of the Elements
+  author:
+    - Greenwood, Norman N.
+    - Earnshaw, Alan
+  edition: 2
+  date: 1997
+  publisher: Butterworth-Heinemann
+  serial-number:
+    doi: "10.1016/C2009-0-30414-6"
+    isbn: "9780080379418"
+  
+havlik2008-hydrometallurgy:
+  type: Book
+  title: "Hydrometallurgy: Principles and Applications"
+  author:
+    - Havlik, Tomas
+  date: 2008
+  publisher: Woodhead Publishing
+  serial-number:
+    isbn: "9781845694074"
+
+circuit-board-etching:
+  type: artwork
+  title: "Circuit board etching"
+  author:
+    - "Dominec, Filip"
+  date: 2006-03-28
+  url: "https://commons.wikimedia.org/wiki/File:Circuit_board_etching.jpg"
+  note: "Photograph of circuit-board etching in FeCl3. Licensed under CC BY-SA 3.0."
